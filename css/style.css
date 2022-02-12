@@ -1,11 +1,33 @@
 /* Mobile-Friendly Websites */
-/* bootstrap-boilerplate */
+/* Final Project */
 /* K0mputer N3rd */
-/* 02/05/2022 */
+/* 02/11/2022 */
 
 /* style.css */
 
+/* Universal Formatting */
 * {
   margin: 0;
   padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Heading Formatting */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+/* Jumbotron */
+#jumbotron {
+  height: 100vh;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
