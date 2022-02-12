@@ -60,7 +60,6 @@
 
   <!-------------------------------- Body -------------------------------->
   <body>
-
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark p-1 p-lg-2">
       <div class="container-fluid">
@@ -104,72 +103,97 @@
       </div>
     </nav>
 
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>Creative Yarn Crafts</h1>
-        <p style="font-weight: bold">
-          Have you had problems learning to crochet or knit? Are you interested
-          in learning new techniques? Do you need a pattern that exactly fits
-          your specifications?
+    <!-- Jumbotron -->
+    <div class="d-flex container-fluid flex-column text-center" id="jumbotron">
+      <div class="flex-fill">
+        <br />
+      </div>
+      <div class="flex-fill">
+        <h1 class="display-2">Creative Yarn Crafts</h1>
+      </div>
+      <div class="flex-fill">
+        <p class="m-0 p-0 fs-1 fw-bold">
+          Have you had problems learning to crochet or knit?
         </p>
-        <p style="font-weight: bold">
-          This website is being designed to answer your questions. At present,
-          it is still under construction, but the plan is to include all of
-          those things and more.
+        <p class="m-0 p-0 fs-1 fw-bold">
+          Are you interested in learning new techniques?
         </p>
+        <p class="m-0 p-0 fs-1 fw-bold">
+          Do you need a pattern that exactly fits your specifications?
+        </p>
+      </div>
+      <div class="flex-fill">
+        <p class="fs-1 fw-bold">
+          This website is being designed to answer these questions and more.
+        </p>
+      </div>
+      <div class="flex-fill mb-3">
+        <a class="btn btn-dark btn-lg" href="#readmore" role="button">
+          Read More
+        </a>
       </div>
     </div>
-    <div class="row">
-      <div class="column left">
-        <img src="./img/Under Construction.png" alt="Square" />
-        <p>
-          This website is currently under construction. Please forgive the items
-          which don&rsquo;t work yet or don&rsquo;t work quite as planned.
-          Throughout the website you may encounter notes describing plans for
-          future development. This will give you something to look forward to,
-          perhaps a reason to visit this site again in the near future.
-        </p>
-      </div>
-      <div class="column middle">
-        <h2>What to Expect</h2>
-        <p>
-          The plan for this website is to include a variety of features.
-          Tutorials will be available (free) as PDFs, videos and web pages.
-          Several patterns will be available as web pages and free downloads.
-        </p>
-        <p>
-          Customized patterns are being worked on for hats, gloves, sweaters and
-          socks. Each pattern will take into account the actual gauge of the
-          person knitting or crocheting the item, as well as the measurements of
-          the person for whom the item is being made. Then the pattern will be
-          generated for an exact fit. This will allow the crafter to select the
-          yarn and size of needle or hook to be used (within reasonable limits)
-          and produce an item exactly to the wearer&rsquo;s specifications. The
-          pattern will be emailed to the crafter as a PDF. Videos will be
-          available to guide the crafter through the details of the pattern.
-        </p>
-        <p>
-          Another part of the plan is to have the videos mentioned above
-          available through YouTube. A presence may also be established for
-          other social media sites.
-        </p>
-      </div>
-      <div class="column right">
-        <h2>Ideas and Suggestions</h2>
-        <p>
-          If you have ideas about items you would like to see on this site, you
-          are invited to share them. Suggestions for improvement are also
-          welcome. The <a href="Contact.html">Contact</a> page has a form for
-          giving such feedback. You can also get on the mailing list to receive
-          regular updates and be informed when significant upgrades are made to
-          this website.
-        </p>
-        <p>
-          Nobody&rsquo;s perfect. The first versions of patterns are bound to
-          have errors. Please report any errors you find so that they can be
-          fixed. Again, the <a href="Contact.html">Contact</a> page will work
-          fine for submitting such corrections.
-        </p>
+
+    <!-- Read More - Three Columns -->
+    <div class="container-fluid pt-3" id="readmore">
+      <div class="row">
+        <div class="order-3 col-12 col-sm-6 order-md-1 col-md-3">
+          <img
+            class="img-fluid"
+            src="./img/Under Construction.png"
+            alt="Under Construction"
+          />
+          <p>
+            This website is currently under construction. Please forgive the
+            items which don&rsquo;t work yet or don&rsquo;t work quite as
+            planned. Throughout the website you may encounter notes describing
+            plans for future development. This will give you something to look
+            forward to, perhaps a reason to visit this site again in the near
+            future.
+          </p>
+        </div>
+        <div class="order-1 col-12 col-sm-12 order-md-2 col-md-6">
+          <h2>What to Expect</h2>
+          <p>
+            The plan for this website is to include a variety of features.
+            Tutorials will be available (free) as PDFs, videos and web pages.
+            Several patterns will be available as web pages and free downloads.
+          </p>
+          <p>
+            Customized patterns are being worked on for hats, gloves, sweaters
+            and socks. Each pattern will take into account the actual gauge of
+            the person knitting or crocheting the item, as well as the
+            measurements of the person for whom the item is being made. Then the
+            pattern will be generated for an exact fit. This will allow the
+            crafter to select the yarn and size of needle or hook to be used
+            (within reasonable limits) and produce an item exactly to the
+            wearer&rsquo;s specifications. The pattern will be emailed to the
+            crafter as a PDF. Videos will be available to guide the crafter
+            through the details of the pattern.
+          </p>
+          <p>
+            Another part of the plan is to have the videos mentioned above
+            available through YouTube. A presence may also be established for
+            other social media sites.
+          </p>
+        </div>
+        <div class="order-2 col-12 col-sm-6 order-md-3 col-md-3">
+          <h2>Ideas and Suggestions</h2>
+          <p>
+            If you have ideas about items you would like to see on this site,
+            you are invited to share them. Suggestions for improvement are also
+            welcome. The <a href="Contact.html">Contact</a> page has a form for
+            giving such feedback. You can also get on the mailing list to
+            receive regular updates and be informed when significant upgrades
+            are made to this website.
+          </p>
+          <p>
+            Nobody&rsquo;s perfect. The first versions of patterns are bound to
+            have errors. Please report any errors you find so that they can be
+            fixed. Again, the <a href="Contact.html">Contact</a> page will work
+            fine for submitting such corrections.
+          </p>
+        </div>
       </div>
     </div>
 
