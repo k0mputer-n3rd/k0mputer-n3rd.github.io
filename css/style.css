@@ -31,3 +31,12 @@ h6 {
   background-position: center;
   background-size: cover;
 }
+
+.brand {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+}
