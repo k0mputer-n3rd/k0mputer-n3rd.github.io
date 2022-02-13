@@ -25,6 +25,18 @@ h6 {
 /* Jumbotron */
 #jumbotron {
   height: 100vh;
+  min-height: 400px;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Minitron */
+#minitron {
+  height: 25vh;
+  min-height: 200px;
   background-color: wheat;
   background-image: url("../img/KnitBack.jpg");
   background-repeat: no-repeat;
