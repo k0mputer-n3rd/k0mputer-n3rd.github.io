@@ -1,7 +1,7 @@
 /* Mobile-Friendly Websites */
 /* Final Project */
 /* K0mputer N3rd */
-/* 02/11/2022 */
+/* 02/13/2022 */
 
 /* style.css */
 
@@ -35,8 +35,7 @@ h6 {
 
 /* Minitron */
 #minitron {
-  height: 25vh;
-  min-height: 200px;
+  min-height: 150px;
   background-color: wheat;
   background-image: url("../img/KnitBack.jpg");
   background-repeat: no-repeat;
@@ -51,4 +50,10 @@ h6 {
 .logo {
   width: 44px;
   height: 44px;
+}
+
+.video {
+  width: 100vw;
+  max-height: 100vh;
+  margin: 0;
 }
