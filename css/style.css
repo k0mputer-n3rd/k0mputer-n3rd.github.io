@@ -43,6 +43,17 @@ h6 {
   background-size: cover;
 }
 
+/* Parallax */
+#parallax {
+  min-height: 100vh;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .brand {
   font-family: "Akaya Telivigala", cursive;
 }
