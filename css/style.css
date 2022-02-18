@@ -1,7 +1,7 @@
 /* Mobile-Friendly Websites */
 /* Final Project */
 /* K0mputer N3rd */
-/* 02/13/2022 */
+/* 02/18/2022 */
 
 /* style.css */
 
@@ -22,7 +22,7 @@ h6 {
   font-family: "Akaya Telivigala", cursive;
 }
 
-/* Jumbotron */
+/* Jumbotron for Large Screens*/
 #jumbotron {
   height: 100vh;
   min-height: 400px;
@@ -33,7 +33,19 @@ h6 {
   background-size: cover;
 }
 
-/* Minitron */
+/* Jumbotron for Small Screens */
+@media screen and (max-width: 575px) {
+  #jumbotron {
+    height: 100vh;
+    min-height: 400px;
+      background-color: wheat;
+    background-image: url("../img/KnitTile.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    }
+}
+
+/* Minitron for Large Screens */
 #minitron {
   min-height: 50px;
   background-color: wheat;
@@ -41,6 +53,17 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* Minitron for Small Screens */
+@media screen and (max-width: 575px) {
+  #minitron {
+    min-height: 50px;
+    background-color: wheat;
+    background-image: url("../img/KnitTile.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    }
 }
 
 /* Parallax */
